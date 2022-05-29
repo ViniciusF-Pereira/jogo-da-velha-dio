@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="icon" href="./iconeVelha.png">
+    <link rel="stylesheet" href="./style/css.css">
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div>
+        <div id="1" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+        <div id="4" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+    </div>
+
+    <div>
+        <div id="7" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolhaQuadrado(this.id)">-</div>
+    </div>
+
+    <div class="Jogador">
+        <label>Jogador: </label>
+        <label id="Jogador-selecionado"></label>
+    </div>
+
+    <div class="Ganhador">
+        <label>Vencedor: </label>
+        <label id="Ganhador-selecionado"></label>
+    </div>
+
+    <div>
+        <button class="Riniciar" onclick="riniciar()">Reiniciar</button>
+    </div>
+
+    <footer class="rodape">
+        <div class="rodapeDiv">
+            DESENVOLVIDO POR <a href="https://github.com/ViniciusF-Pereira" target="_blank"><span> VINICIUS DE FREITAS</span></a></div>
+        </div>
+    </footer>
+</body>
+
+<script src=".velha.js"></script>
+
+</html>

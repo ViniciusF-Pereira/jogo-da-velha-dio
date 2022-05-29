@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(231, 230, 228);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body h1 {
+    font-size: 42px;
+    color: black;
+}
+
+body h1:hover {
+    font-size: 42px;
+    color: rgb(194, 52, 52);
+    transition: 4s;
+}
+
+.quadrado {
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(87, 150, 150);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 3s;
+    color: rgb(87, 150, 150);
+    align-self: start;
+}
+
+.Riniciar {
+    font-size: 30px;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.Riniciar:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.Jogador,
+.Ganhador {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+}
+
+.rodapeDiv {
+    text-align: center;
+    margin-top: 1.5%;
+    margin-right: 20px;
+    margin-left: 30PX;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
